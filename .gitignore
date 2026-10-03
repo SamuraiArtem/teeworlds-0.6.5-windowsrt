@@ -1,0 +1,41 @@
+# ==============================================================================
+# Git Ignore for Teeworlds 0.6.5 (Surface RT / Windows RT)
+# ==============================================================================
+
+# Build & Output
+/build/
+/dist/
+/obj/
+/bin/
+/out/
+/package/
+
+# Object and archive files
+*.o
+*.obj
+*.pdb
+*.idb
+*.tlog
+*.ilk
+*.exp
+*.a
+
+# Executables
+*.exe
+*.signed.exe
+
+# Logs
+*.log
+gldirect.log
+
+# IDE & Editor files
+.vs/
+*.suo
+*.user
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
